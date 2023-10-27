@@ -1,0 +1,24 @@
+MAC Address:
+Mac address is nothing but Media access control address
+Which will be 
+•	Physical
+•	Permanent
+•	Unique
+In a communication, the packets will flow from the source MAC to the destination MAC
+
+Now we are going to change the  Mac address of a particular network:
+Let’s say you are connected to a  wireless adopter and if u run --ifconfig
+U can find it as wlan0.
+
+Now run the following commands to change the mac address:
+--ifconfig wlan0 down
+-> Enter
+(its disabled now)
+•	--ifconfig wlan0 hw ether 00:11:22:33:55:44
+(ether is nothing but a MAC address. If u find ether 00:11:1d:2f:3d… then 00:11:1d:2f:3d… I is your required MAC address)
+•	--ifconfig wlan0 up
+
+now if u run --ifconfig again you will note that the MAC address is changed to 00:11:22:33:55:44
+
+NOTE: 
+We are modifying the address in memory, not the physical address, therefore if you restart the computer, the Mac address will be reset to its original address

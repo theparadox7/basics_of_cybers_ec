@@ -6,6 +6,5 @@ If you ever come across any inaccuracies or need assistance with cybersecurity-r
 We can collaboratively work towards enhancing your understanding of the field. 
 I wish you the best of luck on your journey in the world of cybersecurity.
 All the best               
-Best regards.
 
       --The Unknown Paradox

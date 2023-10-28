@@ -1,0 +1,11 @@
+Finding all available wireless network networks and its basic information
+•	ifconfig [interface] down
+# Replace [interface] with the name of your wireless interface (e.g., wlan0)
+•	airdump-ng wlan0
+(press ctrl + c to stop the process)
+iwconfig allows you to view and manipulate various wireless settings, such as SSID (network name), encryption keys, transmission power, and more.
+SSID (Network Name): The SSID, or Service Set Identifier, represents the name of a wireless network. It is a human-readable label that distinguishes one wireless network from another
+Encryption Keys: Encryption keys are used to secure wireless network communications. iwconfig allows you to configure encryption keys, including WEP (Wired Equivalent Privacy) or WPA (Wi-Fi Protected Access) keys. These keys are essential for protecting data transmitted over a wireless network.
+Transmission Power: The transmission power setting in iwconfig determines how much power the wireless adapter uses when transmitting signals. You can adjust the transmission power to increase or decrease the range of your wireless network. It's particularly useful for optimizing wireless coverage in a given area.
+Operating Mode: iwconfig allows you to set the operating mode of the wireless interface. The operating modes can include "Managed" for connecting to infrastructure networks, "Ad-Hoc" for creating peer-to-peer networks, "Monitor" for network monitoring and packet capturing, and others. Changing the operating mode enables different functionalities.
+Channel: The channel setting specifies the specific radio frequency channel on which the wireless adapter communicates with a wireless access point or other devices. By using iwconfig, you can select a channel that provides optimal performance and minimizes interference from neighboring networks.

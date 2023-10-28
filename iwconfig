@@ -1,0 +1,33 @@
+iwconfig:
+The iwconfig command is a Linux command-line utility used to configure and display information about wireless network interfaces. It is typically used with wireless network adapters and is part of the Wireless Tools for Linux package
+iwconfig [interface] [options]
+
+iwconfig wlan0 
+here wlan0 is your wireless interface.
+Let us set mode to Monitor mode:
+In this mode you will be able to trace packets nad all the wireless network available in yur adapter range. Follow the procedure below
+•	iwconfig
+# or
+•	ifconfig
+•	ifconfig [interface] down
+# Replace [interface] with the name of your wireless interface (e.g., wlan0)
+•	airmon-ng check kill
+•	iwconfig wlan0 hw mode monitor
+•	ifconfig [interface] up
+# Replace [interface] with the name of your wireless interface (e.g., wlan0
+This method always will not work for all adaptors. Below is the other procedure to change the mode to monitor mode.
+•	iwconfig
+# or
+•	ifconfig
+•	ifconfig [interface] down
+•	airmon-ng check kill
+•	airmon-ng start [interface]
+•	# Replace [interface] with the name of your wireless interface (e.g., wlan0
+You will find a message that mode is set to monitor mode.
+Now you can check the mode of wlan0 by running
+•	iwconfig
+# or
+•	ifconfig
+•	
+
+

@@ -1,0 +1,17 @@
+Capturing 5Gh frequency networks:
+To capture Wi-Fi networks operating on the 5GHz frequency band using the Airodump-ng tool, you can run the following command:
+•	airodump-ng --band a wlan0 
+This command will enable you to monitor and capture information about wireless networks that are using the 5GHz frequency band.
+Capturing 5Gh and 2.4 Gh frequency networks:
+If you want to capture Wi-Fi networks operating on both the 2.4GHz and 5GHz frequency bands, you can use the following command:
+•	airodump-ng --band abg wlan0
+This command allows you to monitor and capture information from wireless networks that use both frequency bands simultaneously.
+One particular network
+To focus on capturing data from a specific network, you can use the following command:
+•	Airodump-ng –bssid[Mac of yur target network] –channel[ch] –write test wlan0
+Now u will find all device connected to wlan0
+
+Deautentication Attack:
+In the context of ethical hacking and network security, a deauthentication attack can be used as a security measure to test the resilience of a network. The aim is to simulate potential threats and vulnerabilities so that network administrators can better protect their systems. To conduct a deauthentication attack, you would use tools like Aircrack-ng and send deauthentication frames to specific devices or clients to test how well the network handles these types of disruptions.
+It's crucial to emphasize that ethical hacking should be performed responsibly, legally, and with proper authorization. Always ensure you have the necessary permissions and follow ethical guidelines when performing security assessments and penetration testing. Unauthorized hacking activities are illegal and can lead to severe consequences.
+

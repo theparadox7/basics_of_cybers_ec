@@ -1,0 +1,32 @@
+Exploring Ethical Hacking Techniques: WEP Cracking
+
+Introduction
+Welcome to a guide on understanding the vulnerabilities of Wired Equivalent Privacy (WEP), a dated and insecure Wi-Fi encryption method. This information is intended for educational purposes and should only be used responsibly and legally.
+Understanding WEP Cracking:
+WEP (Wired Equivalent Privacy) is an outdated protocol that was designed to secure wireless networks. Here's an overview of the WEP cracking process:
+
+1. **Client-Side Encryption:** Data is encrypted using a WEP key.
+2. **Wireless Transmission:** Encrypted data packets are transmitted through the air.
+3. **Router Decryption:** The router decrypts incoming data packets using the same WEP key.
+4. **Initialization Vector (IV):** IV is used to generate key streams.
+5. **IV Weakness:** IV is only 24 bits long and is sent in plain text, making it susceptible to attack.
+6. **Key Stream Generation:** By combining the IV with the WEP key, a key stream is generated.
+7. **RC4 Algorithm:** WEP uses the RC4 algorithm for data encryption.
+
+Capturing and Cracking
+Using Airodump-ng
+To capture WEP-encrypted network traffic, we can employ Airodump-ng:
+•	Airodump-ng –bssid[Mac of yur target network] –channel[ch] –write test wlan0
+Substitute [BSSID] with the BSSID (MAC address) of the target network and [Channel] with the Wi-Fi channel. The captured data will be stored in a file named basic_wep.cap.
+
+Using Aircrack-ng:
+To crack the captured data, we can use Aircrack-ng:
+•	Aircrack-ng basic_wep.cap
+
+
+Aircrack-ng will attempt to crack the WEP key. When successful, you'll receive a message with the key (KEY FOUND!) and the ASCII password.
+Always remember to use this knowledge responsibly, with proper authorization, and within the boundaries of the law. Ethical hacking is a valuable field for enhancing cybersecurity, but it should always be conducted with the utmost respect for privacy and security.
+
+
+
+Please ensure that you maintain a strong commitment to ethical and legal use of this information in all your learning endeavors.

@@ -7,6 +7,8 @@ We can collaboratively work towards enhancing your understanding of the field.
 I wish you the best of luck on your journey in the world of cybersecurity.
 All the best !!              
 
+Please consult the directory to determine the order in which files should be read.
+
 PLEASE ENSURE THAT YOU MAINTAIN A STRONG COMMITMENT TO ETHICAL AND LEGAL USE OF THIS INFORMATION IN ALL YOUR LEARNING ENDEAVORS.
 
 

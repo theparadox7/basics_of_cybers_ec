@@ -1,0 +1,16 @@
+Cracking WPA/WPA2:
+WPA (Wi-Fi Protected Access) and WPA2 are wireless security protocols designed to protect Wi-Fi networks from unauthorized access and data breaches. They were developed as improvements over the older and less secure WEP (Wired Equivalent Privacy) protocol. Here's some information about WPA and WPA2:
+Wps is a feature that can be used with both WPA and WPA2, and it enables clients to connect without a password. This is how to crack WPA/WPA2.
+• An eight-digit pin is used for authentication.
+• The eight-digit pin is minuscule. We are able to use every pin that is available.
+
+Execute the subsequent
+• wlan0—interface wash
+You will get name of network copy bssid and do fake authentication attack
+
+Run the following now.
+• airply-ng -fakeauth 30 -a [target mac] -h [adopter mac in monitor mode] wifi0
+Run this in split terminal concurrently.
+• wlan0 – interface mode – channel 5 –reaver –bssid[] –vvv – no-associate
+
+
